@@ -30,4 +30,10 @@ git remote add origin git@server-name:path/repo-name.git 关联远程库
 git push -u origin master 第一次推送master分支的所有内容；
 git push origin master推送最新修改
 contribute贡献出; 捐赠（款项）; 投稿（给杂志等）; 出力;
-
+git clone 后加远程库地址将远程库克隆到本地
+查看分支：git branch
+创建分支：git branch <name>
+切换分支：git checkout <name>
+创建+切换分支：git checkout -b <name>
+合并某分支到当前分支：git merge <name>
+删除分支：git branch -d <name>
